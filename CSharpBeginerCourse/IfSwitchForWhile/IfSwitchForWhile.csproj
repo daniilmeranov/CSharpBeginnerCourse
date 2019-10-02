@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E11DFB61-61DB-4FC4-8DCC-BF95CC83F36F}</ProjectGuid>
+    <ProjectGuid>{C270CB4A-7199-4758-840D-D96E2B2DEDC7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lecture01</RootNamespace>
-    <AssemblyName>Lecture01</AssemblyName>
+    <RootNamespace>IfSwitchForWhile</RootNamespace>
+    <AssemblyName>IfSwitchForWhile</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BeginTask.cs" />
-    <Compile Include="Boolean.cs" />
-    <Compile Include="IntegerTask.cs" />
+    <Compile Include="ForWhile.cs" />
+    <Compile Include="IfSwitch.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

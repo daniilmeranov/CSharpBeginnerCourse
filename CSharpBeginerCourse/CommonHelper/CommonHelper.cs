@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Lecture01
+namespace CommonHelper
 {
-    class CommonHelper
+    public class CommonHelper
     {
         public static string GetValue(string prompt)
         {

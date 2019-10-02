@@ -4,6 +4,8 @@ namespace Lecture01
 {
     class BeginTask
     {
+        const double pi = 3.14;
+
         public static int GetSquare(int a)
         {
             var s = a * a;
@@ -56,14 +58,12 @@ namespace Lecture01
 
         public static double Begin29(double a)
         {
-            var pi = 3.14;
             var rad = pi / 180 * a;
             return rad;
         }
 
         public static double Begin30(double a)
         {
-            var pi = 3.14;
             var grad = a / pi * 180;
             return grad;
         }
